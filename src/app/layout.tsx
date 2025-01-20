@@ -11,33 +11,41 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: 'Muhamed Azmin | Full Stack Developer',
-  description: 'Full Stack Developer specializing in React, Node.js, and modern web technologies. Check out my portfolio and projects.',
+  title: {
+    template: '%s | Azmin CN',
+    default: 'Azmin CN',
+  },
+  description: 'Azmin CN - Personal Portfolio',
   keywords: 'Full Stack Developer, Web Developer, React Developer, Next.js, Node.js, Muhamed Azmin',
   authors: [{ name: 'Muhamed Azmin' }],
   creator: 'Muhamed Azmin',
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
+    title: 'Azmin CN',
+    description: 'Azmin CN - Personal Portfolio',
     url: 'https://azmincn.netlify.app/',
-    title: 'Muhamed Azmin | Full Stack Developer',
-    description: 'Full Stack Developer specializing in React, Node.js, and modern web technologies',
-    siteName: 'Muhamed Azmin Portfolio',
+    siteName: 'Azmin CN',
     images: [
       {
-        url: '/azmin.png',
+        url: 'https://azmincn.netlify.app/assets/azmincn.png',
         width: 1200,
         height: 630,
-        alt: 'Muhamed Azmin - Full Stack Developer',
+        alt: 'Azmin CN',
       },
     ],
+    locale: 'en_US',
+    type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Muhamed Azmin | Full Stack Developer',
     description: 'Full Stack Developer specializing in React, Node.js, and modern web technologies',
-    images: ['/azmin.png'],
-  }
+    images: [
+      {
+        url: 'https://azmincn.netlify.app/assets/azmincn.png',
+       
+        alt: 'Azmin CN',
+      },
+    ],  }
 };
 
 export default function RootLayout({
