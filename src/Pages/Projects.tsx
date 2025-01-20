@@ -28,7 +28,7 @@ export default function PortfolioGrid() {
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold mb-4 text-gray-900">My Recent Work</h2>
         <p className="text-lg text-gray-600">
-          Here are a few past design projects I've worked on. Want to see more?{' '}
+          Here are a few past design projects I&apos;ve worked on. Want to see more?{' '}
           <Link href="mailto:example@email.com" className="text-blue-500 hover:text-blue-600">
             Email me
           </Link>

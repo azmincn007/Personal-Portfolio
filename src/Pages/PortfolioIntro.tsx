@@ -7,10 +7,10 @@ export default function PortfolioIntro() {
       <div className="bg-gradient-to-br from-[#6E07F3] to-[#8F45F9] text-white pb-8  px-4">
         <div className="max-w-4xl mx-auto text-center space-y-6 py-32">
           <h1 className="text-[30px]  font-bold font-space-grotesk">
-            Hi, I'm Azmin. Nice to meet you.
+            Hi, I&apos;m Azmin. Nice to meet you.
           </h1>
           <p className="text-sm md:text-lg font-[500] leading-relaxed max-w-4xl mx-auto">
-            With 1.5 years of experience in both frontend and backend development, I've had the opportunity to collaborate on various projects, including e-commerce and event management platforms. I'm excited to continue learning and growing as a developer.
+            With 1.5 years of experience in both frontend and backend development, I&apos;ve had the opportunity to collaborate on various projects, including e-commerce and event management platforms. I&apos;m excited to continue learning and growing as a developer.
           </p>
         </div>
       </div>
