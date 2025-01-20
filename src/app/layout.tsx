@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import {  Montserrat } from "next/font/google";
 import "./globals.css";
-
+import metaimage from "../../public/assets/Azmincn.png"
 
 
 
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://your-website.com',
+    url: 'https://azmincn.netlify.app/',
     title: 'Muhamed Azmin | Full Stack Developer',
     description: 'Full Stack Developer specializing in React, Node.js, and modern web technologies',
     siteName: 'Muhamed Azmin Portfolio',
     images: [
       {
-        url: '/og-image.png', // Add your OG image path here
-        width: 1200,
-        height: 630,
+        url: metaimage.src,
+        width: metaimage.width,
+        height: metaimage.height,
         alt: 'Muhamed Azmin - Full Stack Developer',
       },
     ],
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Muhamed Azmin | Full Stack Developer',
     description: 'Full Stack Developer specializing in React, Node.js, and modern web technologies',
-    images: ['/og-image.png'], // Add your Twitter card image path here
+    images: [metaimage.src],
   },
   icons: {
     icon: '/favicon.ico',
