@@ -37,12 +37,7 @@ export const metadata: Metadata = {
     title: 'Muhamed Azmin | Full Stack Developer',
     description: 'Full Stack Developer specializing in React, Node.js, and modern web technologies',
     images: ['/Azmincn.png'],
-  },
-  icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
-  },
+  }
 };
 
 export default function RootLayout({
