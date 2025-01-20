@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Muhamed Azmin Portfolio',
     images: [
       {
-        url: '/Azmincn.png',
+        url: '/azmin.png',
         width: 1200,
         height: 630,
         alt: 'Muhamed Azmin - Full Stack Developer',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Muhamed Azmin | Full Stack Developer',
     description: 'Full Stack Developer specializing in React, Node.js, and modern web technologies',
-    images: ['/Azmincn.png'],
+    images: ['/azmin.png'],
   }
 };
 
