@@ -1,6 +1,5 @@
 import ProjectCTA from '@/components/Specific/FooterComponent1'
-import { Mail, Linkedin, Github, Instagram, Phone } from 'lucide-react'
-import Image from "next/image"
+import { Mail, Github, Linkedin, Instagram, Phone } from 'lucide-react'
 
 export default function Footer() {
   return (

@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import {  Montserrat, Space_Grotesk } from "next/font/google";
+import {  Montserrat } from "next/font/google";
 import "./globals.css";
 
 
